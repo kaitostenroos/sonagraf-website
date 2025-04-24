@@ -1,0 +1,38 @@
+.description {
+    font-size: 1.5rem;
+}
+
+.highlight {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.image-section {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+}
+
+.right {
+    align-items: flex-end;
+}
+
+.image-container > img {
+    width: 500px;
+    max-width: 100%;
+    min-height: 200px;
+    background-color: antiquewhite;
+}
+
+.image-container > p {
+    width: auto;
+    max-width: 500px !important;
+}

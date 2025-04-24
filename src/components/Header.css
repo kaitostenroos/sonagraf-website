@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    min-height: 40vh;
+    background-color: #999;
+    background-image: none;
+    padding: 10px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 1.5rem;
+}
