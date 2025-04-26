@@ -14,6 +14,9 @@ git clone https://github.com/kaitostenroos/sonagraf-website.git
 # Move to the project directory
 cd sonagraf-website
 
+# Install dependencies
+npm install
+
 # Run development environment
 npm run dev
 ```
