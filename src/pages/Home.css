@@ -8,6 +8,23 @@
     box-sizing: border-box;
 }
 
+.list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-wrapper > p {
+    width: 50%;
+}
+
+.list-wrapper > ul {
+    width: 50%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
 .logo-wrapper {
     width: 100vw;
     display: flex;
@@ -17,12 +34,14 @@
     gap: 50px;
     padding: 50px;
     box-sizing: border-box;
+    margin-top: 50px;
 }
 
 .logo-wrapper h2 {
     width: 100%;
     text-align: center;
     font-size: 3rem;
+    margin: 0;
 }
 
 .logo-wrapper img {

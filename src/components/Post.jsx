@@ -23,7 +23,7 @@ function Post() {
     const DynamicPost = useMemo(() => loadPostComponent(title), [title]);
 
     return (
-        <Suspense fallback={<></>}>
+        <Suspense fallback={<div>loading...</div>}>
             <DynamicPost />
         </Suspense>
     );

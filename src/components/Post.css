@@ -22,7 +22,12 @@
 }
 
 .post-text-wrapper p {
-    max-width: 100%;
+    width: 100%;
+    font-size: .8rem;
+}
+
+.article-text {
+    font-size: 1rem !important;
 }
 
 .post-text-wrapper img {
