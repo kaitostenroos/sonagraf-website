@@ -35,6 +35,11 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  max-width: 800px;
+}
+
+p {
+  max-width: 800px;
 }
 
 button {
@@ -54,4 +59,8 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+img {
+  max-width: 800px;
 }

@@ -1,0 +1,28 @@
+.blog-wrapper {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.blog-wrapper h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.blog-entry {
+    width: 300px;
+    overflow: hidden;
+}
+
+.blog-entry img {
+    max-width: 100%;
+}
+
+.blog-entry p {
+    margin: 0;
+    color: black;
+}
