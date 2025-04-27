@@ -1,12 +1,22 @@
-# React + Vite
+# Website for Sonagraf Ltd. using React.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a template project for Sonagraf's website. Deployed version with the content can be found here{link]
 
-Currently, two official plugins are available:
+## Building a website using this project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Node.js is required to develop this project
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clone the repository
+git clone https://github.com/kaitostenroos/sonagraf-website.git
+
+# Move to the project directory
+cd sonagraf-website
+
+# Install dependencies
+npm install
+
+# Run development environment
+npm run dev
+```
