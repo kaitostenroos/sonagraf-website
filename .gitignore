@@ -13,7 +13,7 @@ dist-ssr
 *.local
 
 # Assets from Sonagraf
-assets/sonagraf
+src/assets/sonagraf
 
 # Editor directories and files
 .vscode/*
