@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Assets from Sonagraf
+assets/sonagraf
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

@@ -13,9 +13,19 @@
     text-align: center;
 }
 
+.blog-entry-wrapper {
+    margin-top: 50px;
+    max-width: 800px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .blog-entry {
-    width: 300px;
+    width: 350px;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .blog-entry img {
@@ -25,4 +35,10 @@
 .blog-entry p {
     margin: 0;
     color: black;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.date {
+    font-size: .9rem !important;
 }

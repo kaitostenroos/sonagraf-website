@@ -35,12 +35,8 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-  max-width: 800px;
 }
 
-p {
-  max-width: 800px;
-}
 
 button {
   border-radius: 8px;
@@ -62,5 +58,5 @@ button:focus-visible {
 }
 
 img {
-  max-width: 800px;
+  border-radius: 16px;
 }
