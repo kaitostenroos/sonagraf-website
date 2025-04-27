@@ -1,5 +1,6 @@
 .description {
     font-size: 1.5rem;
+    margin: 50px 10px;
 }
 
 .highlight {
@@ -12,6 +13,8 @@
     max-width: 800px;
     display: flex;
     flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .image-container {

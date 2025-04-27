@@ -3,6 +3,12 @@ import './Home.css'
 
 import exampleImage from '../assets/example-image.jpg'
 
+const logoModules = import.meta.glob('../assets/sonagraf/logos/*.{png,jpg,jpeg,svg}', { eager: true });
+const logos = Object.entries(logoModules).map(([path, module]) => {
+    const fileName = path.split('/').pop();
+    return { name: fileName, src: module.default };
+});
+
 function Home() {
     return (
         <div className='home-page-content'>
@@ -25,7 +31,12 @@ function Home() {
                     <img src={exampleImage} />
                     <p>Image description</p>
                 </div>
-
+            </div>
+            <div className='logo-wrapper'>
+                <h2 >Trusted by:</h2>
+                {logos.map(logo => (
+                    <img key={logo.name} src={logo.src} alt={logo.name} />
+                ))}
             </div>
         </div>
     )
