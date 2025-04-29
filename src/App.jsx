@@ -6,6 +6,7 @@ import About from './pages/About'
 
 import './App.css'
 import Header from './components/Header';
+import AddBanner from './components/AddBanner'
 import Post from './components/Post'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     return (
         <Router>
             <Header />
+            <AddBanner />
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/blog' element={<Blog />} />

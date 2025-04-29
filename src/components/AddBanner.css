@@ -1,0 +1,22 @@
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.banner-description {
+    width: 350px;
+    max-width: 100%;
+    text-align: left;
+    margin: 0;
+}
+
+.banner {
+    width: 350px;
+    max-width: 100%;
+}
