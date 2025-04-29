@@ -1,12 +1,13 @@
 import '../components/Post.css'
-import articleImage from '../assets/sonagraf/images/DSC05932-scaled.jpeg'
+import articleImage from '../assets/sonagraf/images/blog/DSC05932-scaled.jpeg'
 
-function ElevatingCompanyWorkflow() {
+function ElevatingCompanyWorkflowInUnrealEngine() {
     return (
         <div className="post-wrapper">
             <article className='post-text-wrapper'>
                 <h1>Elevating CG Company Workflow in Unreal Engine</h1>
-                <img src={articleImage} alt='Image of a coastline with a palm tree' />
+                <p className='date'>7/2/24</p>
+                <img src={articleImage} alt='Jaakko teaching his client' />
                 <p className='article-text'>
                     On July I had pleasure of holding customized Unreal Engine training course for Digidelic in Tokyo.
                     <br />
@@ -26,9 +27,9 @@ function ElevatingCompanyWorkflow() {
                     <br />
                     We have also held training courses this year with major Japanese TV stations and broadcasters, specializing in elevating visuals used in ICVFX applications such as Vizrt.
                 </p>
-                <p>
+                <p className='author'>
                     Written by Jaakko Saari <br />
-                    Project Associate Professor at Digital Hollywood University
+                    Founder of Sonagraf
                 </p>
             </article>
         </div>
@@ -37,4 +38,4 @@ function ElevatingCompanyWorkflow() {
     )
 }
 
-export default ElevatingCompanyWorkflow
+export default ElevatingCompanyWorkflowInUnrealEngine
