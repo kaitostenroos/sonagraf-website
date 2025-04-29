@@ -1,7 +1,7 @@
 import '../components/Post.css'
 import articleImage from '../assets/sonagraf/images/DSC05932-scaled.jpeg'
 
-function TestPost() {
+function ElevatingCompanyWorkflow() {
     return (
         <div className="post-wrapper">
             <article className='post-text-wrapper'>
@@ -37,4 +37,4 @@ function TestPost() {
     )
 }
 
-export default TestPost
+export default ElevatingCompanyWorkflow

@@ -2,7 +2,8 @@ import '../App.css';
 import './Home.css';
 import LazyImage from '../components/LazyImage';
 
-import waterDropImg from '../assets/sonagraf/images/waterdrop.jpg';
+
+import car from '../assets/sonagraf/images/Saimaa-ad.jpg'
 import volcanic from '../assets/sonagraf/images/jaakko-saari-volcanic.jpg';
 import trainStation from '../assets/sonagraf/images/jaakko-saari-yoyogi-update.jpg';
 import textures from '../assets/sonagraf/images/jaakko-saari-bishamon-redshift.jpg';
@@ -23,27 +24,27 @@ function Home() {
                 We craft memorable <span className='highlight'>interactive content</span> and <span className='highlight'>immersive visuals.</span>.
             </p>
             <div className='image-section'>
-                <div className='image-container right'>
-                    <LazyImage src={waterDropImg} alt='Image of a sport utility vehicle' />
+                <div className='image-container left'>
+                    <LazyImage src={car} alt='Image of a sport utility vehicle' />
                     <p>Realistic <span className='highlight'>automotive</span> rendering.</p>
                 </div>
                 <div className='image-container fullwidth'>
                     <LazyImage src={volcanic} alt='Sceneric landscape of a volcanic area' />
                     <p>Immersive 360° <span className='highlight'>virtual worlds</span>.</p>
                 </div>
-                <div className='image-container'>
+                <div className='image-container right'>
                     <LazyImage src={trainStation} alt='Realistic digital redition of Yoyogi train station' />
                     <p>Realistic <span className='highlight'>urban landscapes</span>.</p>
                 </div>
-                <div className='image-container right'>
+                <div className='image-container left'>
                     <LazyImage src={textures} alt='Abstract digital materials' />
                     <p>Tactile <span className='highlight'>digital materials</span>.</p>
                 </div>
-                <div className='image-container fullwidth'>
+                <div className='image-container right'>
                     <LazyImage src={metahuman} alt='Realistic human character' />
                     <p>Photo realistic <span className='highlight'>custom metahumans</span>.</p>
                 </div>
-                <div className='image-container'>
+                <div className='image-container left'>
                     <LazyImage src={training} alt='Jaakko Saari teaching his client' />
                     <p>We train <span className='highlight'>people</span></p>
                 </div>

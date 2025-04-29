@@ -30,6 +30,10 @@
     align-items: flex-end;
 }
 
+.left {
+    align-items: flex-start;
+}
+
 
 .image-container > img {
     width: 500px;
