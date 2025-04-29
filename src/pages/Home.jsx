@@ -3,7 +3,7 @@ import './Home.css';
 import LazyImage from '../components/LazyImage';
 
 
-import car from '../assets/sonagraf/images/Saimaa-ad.jpg'
+import car from '../assets/sonagraf/images/car-in-city.jpg'
 import volcanic from '../assets/sonagraf/images/jaakko-saari-volcanic.jpg';
 import trainStation from '../assets/sonagraf/images/jaakko-saari-yoyogi-update.jpg';
 import textures from '../assets/sonagraf/images/jaakko-saari-bishamon-redshift.jpg';
