@@ -17,8 +17,7 @@ function App() {
             <AddBanner />
             <Routes>
                 <Route path='/' element={<Home />} />
-                <Route path='/blog' element={<Blog />} />
-                <Route path='/blog/:postTitle' element={<Post />} />
+                <Route path='/home' element={<Home />}/>
                 <Route path='/about-us' element={<About />} />
             </Routes>
         </Router>

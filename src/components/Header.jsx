@@ -9,7 +9,7 @@ function Header() {
         <header>
             <nav>
                 <Link to="/">Home</Link>
-                <Link to="blog">News</Link>
+                <a href="https://www.sonagraf.com/blog">Blog</a>
                 <Link to="about-us">About Us</Link>
             </nav>
             <video className="video-bg" autoPlay muted loop>
