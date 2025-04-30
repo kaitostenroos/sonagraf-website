@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 
 import './Header.css'
 
+import sonagrafLogo from '../assets/sonagraf/images/sglogo_color.png'
 import background from '../assets/sonagraf/vids/car_ad.mp4'
 
 function Header() {
@@ -13,6 +14,7 @@ function Header() {
                 <Link to="about">About</Link>
                 <a href="https://www.sonagraf.com/contact">Contact</a>
             </nav>
+            <img className="logo" src={sonagrafLogo} alt="Sonagraf logo" />
             <video className="video-bg" autoPlay muted loop>
                 <source src={background} type="video/mp4"></source>
             </video>
