@@ -6,7 +6,7 @@ import sachiko from '../assets/sonagraf/images/Sachiko-Stenroos.jpg'
 function About() {
     return(
         <div className="about-wrapper">
-            <h1>About Us</h1>
+            <h1>About</h1>
             <div className="info-container">
                 <img src={jaakko} alt="Portrait of Jaakko Saari" />
                 <article>

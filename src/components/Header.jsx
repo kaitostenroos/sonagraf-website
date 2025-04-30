@@ -10,7 +10,8 @@ function Header() {
             <nav>
                 <Link to="/">Home</Link>
                 <a href="https://www.sonagraf.com/blog">Blog</a>
-                <Link to="about-us">About Us</Link>
+                <Link to="about">About</Link>
+                <a href="https://www.sonagraf.com/contact">Contact</a>
             </nav>
             <video className="video-bg" autoPlay muted loop>
                 <source src={background} type="video/mp4"></source>
