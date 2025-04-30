@@ -1,0 +1,39 @@
+footer {
+    width: 100vw;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.address-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.address-container p {
+    width: 350px;
+    font-size: .9rem;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.bottom-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
