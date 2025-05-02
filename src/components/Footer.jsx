@@ -19,7 +19,7 @@ function Footer() {
                 </p>
             </div>
             <div className='bottom-row'>
-                <p>Copyright © 2025 SonaGraf Co., Ltd</p>
+                <p>All rights reserved. © SonaGraf</p>
                 <div className='links'>
                     <a href="https://www.sonagraf.com/contact">Contact</a>
                     <a href="https://www.sonagraf.com/new-page">Privacy Policy</a>
