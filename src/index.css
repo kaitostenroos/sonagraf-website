@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family:  'Lato', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.87);
@@ -36,9 +38,12 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  font-family: 'Montserrat', system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
-
+p {
+  font-family: Lato !important;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -60,4 +65,5 @@ button:focus-visible {
 
 img {
   border-radius: 16px;
+  height: auto;
 }
