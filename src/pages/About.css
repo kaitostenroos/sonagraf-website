@@ -9,6 +9,26 @@
     box-sizing: border-box;
 }
 
+.about-text-container {
+    width: 800px;
+    max-width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.about-text-container h2 {
+    text-align: left;
+    width: 100%;
+    margin: 0;
+}
+
+.about-text-container p {
+    margin: 0;
+}
+
 .info-container {
     display: flex;
     flex-wrap: wrap;
