@@ -36,9 +36,10 @@
     width: 800px;
     max-width: 100%;
     gap: 10px;
+    margin: 50px;
 }
 
-.info-container > article {
+.info-container > div {
     width: 400px;
     max-width: 100%;
     text-align: left;

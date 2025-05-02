@@ -5,9 +5,9 @@ import sachiko from '../assets/sonagraf/images/Sachiko-Stenroos.jpg'
 
 function About() {
     return(
-        <div className="about-wrapper">
+        <article className="about-wrapper">
             <h1>About</h1>
-            <article className='about-text-container'>
+            <div className='about-text-container'>
                 <h2>Background</h2>
                 <p>
                     SonaGraf started as kabusiki-kaisha (Ltd.)(株式会社SonaGraf) in Japan at 2022, founded by award-winning CG artist Jaakko Saari. 
@@ -39,10 +39,10 @@ function About() {
                 We offer a support support period for our clients even after delivery of service to ensure their all needs are met.
                 </p>
 
-            </article>
+            </div>
             <div className="info-container">
                 <img src={jaakko} alt="Portrait of Jaakko Saari" />
-                <article>
+                <div>
                     <h2>Founder</h2>
                     <p>
                     Jaakko Saari is a Project Associate Professor at Digital Hollywood University in Tokyo and CG lead with over a decade worth of experience.
@@ -56,11 +56,11 @@ function About() {
                     <br />
                     He is fluent in Japanese.
                     </p>
-                </article>
+                </div>
             </div>
             <div className="info-container">
                 <img src={sachiko} alt="Portrait of Jaakko Saari" />
-                <article>
+                <div>
                     <h2>Manager</h2>
                     <p>
                     Sachiko Stenroos is a writer and coordinator and has written articles to several magazines on lifestyle and interior design. She has also strong background as translator.
@@ -71,9 +71,9 @@ function About() {
                     <br />
                     As native Japanese she is also in charge of localization and quality control of our localization of VR/AR apps. 
                     </p>
-                </article>
+                </div>
             </div>
-        </div> 
+        </article> 
     )
     
 }
