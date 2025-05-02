@@ -14,7 +14,7 @@ function Header() {
                 <Link to="about">About</Link>
                 <a href="https://www.sonagraf.com/contact">Contact</a>
             </nav>
-            <img className="logo" src={sonagrafLogo} alt="Sonagraf logo" />
+            <img className="logo" src={sonagrafLogo} alt="Sonagraf logo" width="600" height="115"/>
             <video className="video-bg" autoPlay muted loop>
                 <source src={background} type="video/mp4"></source>
             </video>

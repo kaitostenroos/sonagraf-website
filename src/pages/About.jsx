@@ -1,3 +1,5 @@
+import { Helmet} from 'react-helmet'
+
 import './About.css'
 
 import jaakko from '../assets/sonagraf/images/jaakko-saari.jpeg'
@@ -6,7 +8,23 @@ import sachiko from '../assets/sonagraf/images/Sachiko-Stenroos.jpg'
 function About() {
     return(
         <article className="about-wrapper">
-            <h1>About</h1>
+            <Helmet>
+                <title>About - Sonagraf</title>
+                <meta name="description" content="About - a pioneer in Real-Time CG, Virtual Production, and immersive visual engineering. Discover our background, focus, and core values."  />
+                <meta property="og:site_name" content="SonaGraf"/>
+                <link rel="canonical" href="https://www.sonagraf.com"/>
+                <meta property="og:title" content="About Sonagraf - a pioneer in Real-Time CG, Virtual Production, and immersive visual engineering. Discover our background, focus, and core values."/>
+                <meta property="og:image" content="https://www.sonagraf.com/assets/sonagraf/images/car-in-city.jpg" />
+                <meta property="og:url" content="https://www.sonagraf.com/about"/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:description" content="Pioneer in Real-Time CG, Photo-Realistic Environments and Virtual Production."/>
+                <meta name="twitter:title" content="About Sonagraf- a pioneer in Real-Time CG, Virtual Production, and immersive visual engineering. Discover our background, focus, and core values."/>
+                <meta name="twitter:image" content="https://www.sonagraf.com/assets/sonagraf/images/car-in-city.jpg"/>
+                <meta name="twitter:url" content="https://www.sonagraf.com/about"/>
+                <meta name="twitter:card" content="summary"/>
+                <meta name="twitter:description" content="About Sonagraf - a pioneer in Real-Time CG, Photo-Realistic Environments and Virtual Production."/>
+            </Helmet>
+            <h1>About Sonagraf</h1>
             <div className='about-text-container'>
                 <h2>Background</h2>
                 <p>
@@ -41,7 +59,7 @@ function About() {
 
             </div>
             <div className="info-container">
-                <img src={jaakko} alt="Portrait of Jaakko Saari" />
+                <img src={jaakko} alt="Portrait of Jaakko Saari" width="500" height="750"/>
                 <div>
                     <h2>Founder</h2>
                     <p>
@@ -59,7 +77,7 @@ function About() {
                 </div>
             </div>
             <div className="info-container">
-                <img src={sachiko} alt="Portrait of Jaakko Saari" />
+                <img src={sachiko} alt="Portrait of Sachiko Stenroos" width="500" height="750"/>
                 <div>
                     <h2>Manager</h2>
                     <p>

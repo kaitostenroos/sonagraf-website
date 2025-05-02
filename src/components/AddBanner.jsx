@@ -6,7 +6,7 @@ function AddBanner() {
     return(
         <div className='banner-container'>
             <p className='banner-description'>Promotion</p>
-            <img className='banner' src={uCrew} alt="Promotion for u-crew" />
+            <img className='banner' src={uCrew} alt="Promotion for u-crew" width="400" height="200"/>
         </div>
     );
 }

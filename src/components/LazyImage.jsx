@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function LazyImage({ src, alt, className }) {
+function LazyImage({ src, alt, className, width, height }) {
     const [loaded, setLoaded] = useState(false);
 
     return (
@@ -24,6 +24,8 @@ function LazyImage({ src, alt, className }) {
                 src={src}
                 alt={alt}
                 onLoad={() => setLoaded(true)}
+                width={width}
+                height={height}
                 style={{ display: loaded ? 'block' : 'none', width: '100%' }}
             />
         </div>
