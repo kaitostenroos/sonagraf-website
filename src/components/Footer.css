@@ -4,9 +4,17 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: left;
+    color: #fff;
     background-color: rgb(240, 240, 240);
     padding: 10px;
     box-sizing: border-box;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+      ),
+      url("/src/assets/sonagraf/images/bg_basecolor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .address-container {

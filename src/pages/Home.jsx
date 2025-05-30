@@ -71,8 +71,8 @@ function Home() {
                     <p>We train <span className='highlight'>people</span>.</p>
                 </div>
                 <div className='list-wrapper'>
-                    <p>Our customers are:</p>
-                    <p>We provide:</p>
+                    <p className='highlight'>Our customers are:</p>
+                    <p className='highlight'>We provide:</p>
                     <ul>
                         <li>Advertising Agencies</li>
                         <li>Medical Device Companies</li>

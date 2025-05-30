@@ -1,4 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: "Lato";
+  src: url(assets/sonagraf/fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(assets/sonagraf/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Lato-Black";
+  src: url(assets/sonagraf/fonts/Lato/Lato-Black.ttf);
+}
 
 :root {
   margin: 0;
@@ -38,6 +51,10 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  font-family: 'Montserrat', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+h2 {
   font-family: 'Montserrat', system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
