@@ -25,6 +25,25 @@
     margin: 0;
 }
 
+.name {
+    font-family: 'Lato-Bold' !important;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    color: #444;
+}
+
+.task {
+    margin-top: 0;
+    padding-top: 0;
+    color: #777;
+}
+
 
 .logo-wrapper {
     width: 100vw;

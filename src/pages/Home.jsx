@@ -90,7 +90,19 @@ function Home() {
                         <li>1:1 Training</li>
                     </ul>
                 </div>
+                <div className='testimonials'>
+                <h2>What people are saying:</h2>
+                    <p className='name'>Alan Company</p>
+                    <p className='title'>Executive Producer</p>
+                    <p className='task'>February 24, 2025, Alan was senior to Jaakko but didn't manage Jaakko directly</p>
+                    <p className='testimonial-text'>"I had the absolute pleasure of working with Jaakko, and I can say without a doubt that he's one of the most dedicated professionals I've met. He's always fully committed to his work no matter the hours, his sense of responsibility to the project is truly admirable.
+                        <br />
+                        What really stands out about Jaakko is how great he is to work with. He's incredibly respectful, works seamlessly in large teams, and always brings a positive, collaborative energy. He's also constantly learning, always staying ahead of new techniques and tech developments, which makes him an even stronger asset to any team.
+                        <br />
+                        On top of all that, he's just a genuinely great person, kind, supportive, and always a joy to be around. Any team would be lucky to have him, and I can't recommend him enough!"</p>
+                </div>
             </div>
+            
             <div className='logo-wrapper'>
                 <h2>Trusted by:</h2>
                 {logos.map(logo => (
