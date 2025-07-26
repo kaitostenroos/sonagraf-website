@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 import './Header.css'
 
-import sonagrafLogo from '../assets/sonagraf/images/sglogo_color.png'
+import sonagrafLogo from '../assets/sonagraf/images/sglogo_new.png'
 import background from '../assets/sonagraf/vids/car_ad.mp4'
 
 function Header() {
