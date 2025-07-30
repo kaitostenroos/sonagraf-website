@@ -1,0 +1,33 @@
+.post-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.post-container-title {
+    width: 100%;
+    font-size: 2rem;
+}
+
+.post {
+    width: 300px;
+    max-width: 100%;
+    padding: 20px;
+    color: black;
+    text-align: left;
+    box-shadow: 0 7px 8px 2px #00000040;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.post:hover {
+    color: #00000090 !important;
+}
+
+.post a {
+    color: black !important;
+}
