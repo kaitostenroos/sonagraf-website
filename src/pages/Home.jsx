@@ -129,12 +129,13 @@ function Home() {
                     <div className='timeline-section'>
                         <img src={year2025} alt="Year 2025" className='year-svg' />
                         <div className='timeline-section-desc'>
-                            <h2 className='timeline-section-title'>OS-1 AD</h2>
-                            <p className='highlight'>Virtual Production</p>
+                            <h2 className='timeline-section-title'>EarthSpective (Lexus)</h2>
+                            <p className='highlight'>Immersive Content</p>
                             <p>
-                                High-end photorealistic environment for
-                                Unreal Engine Virtual Production on
-                                Otsuka Pharmaceutical Co., Ltd Ad
+                                Created digital twin of earth and
+                                interactive satellite system for
+                                Lexus "A-Un" Exhibit
+                                Milan Design Week 2025
                             </p>
                         </div>
                     </div>

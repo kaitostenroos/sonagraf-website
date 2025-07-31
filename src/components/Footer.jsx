@@ -20,11 +20,6 @@ function Footer() {
             </div>
             <div className='bottom-row'>
                 <p>All rights reserved. © SonaGraf</p>
-                <div className='links'>
-                    <a href="https://www.sonagraf.com/contact">Contact</a>
-                    <a href="https://www.sonagraf.com/new-page">Privacy Policy</a>
-                    <a href="https://www.sonagraf.com/new-page-1">Terms and Conditions</a>
-                </div>
             </div>
         </footer>
     );
