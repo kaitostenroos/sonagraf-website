@@ -58,7 +58,7 @@ function About() {
                 </p>
 
             </div>
-            <div className="info-container">
+            <div id="contacts" className="info-container">
                 <img src={jaakko} alt="Portrait of Jaakko Saari" width="500" height="750"/>
                 <div>
                     <h2>Founder</h2>
@@ -74,6 +74,7 @@ function About() {
                     <br />
                     He is fluent in Japanese.
                     </p>
+                    <p  className='highlight'>jaakko.saari@sonagraf.com</p>
                 </div>
             </div>
             <div className="info-container">
@@ -89,6 +90,7 @@ function About() {
                     <br />
                     As native Japanese she is also in charge of localization and quality control of our localization of VR/AR apps. 
                     </p>
+                    <p className='highlight'>sachiko.stenroos@sonagraf.com</p>
                 </div>
             </div>
         </article> 
