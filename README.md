@@ -1,6 +1,6 @@
-# Website for Sonagraf Ltd. using React.js
+# Website for Sonagraf Ltd. using React.js with Vite
 
-This repository contains a template project for Sonagraf's website. Deployed version with the content can be found here{link]
+This repository contains a template project for Sonagraf's website. Deployed version with the content can be found here https://sonagraf.com/
 
 ## Building a website using this project
 
