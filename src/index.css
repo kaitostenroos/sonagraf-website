@@ -84,3 +84,7 @@ img {
   border-radius: 16px;
   height: auto;
 }
+
+textarea {
+  font-family: 'Lato', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}

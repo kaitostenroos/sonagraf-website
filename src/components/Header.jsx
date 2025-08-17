@@ -12,6 +12,7 @@ function Header() {
                 <Link to="/">Home</Link>
                 <a href="https://blog.sonagraf.com">Blog</a>
                 <Link to="about">About</Link>
+                <Link to={"contact"}>Contact</Link>
             </nav>
             <img className="logo" src={sonagrafLogo} alt="Sonagraf logo" width="600" height="115"/>
             <video className="video-bg" autoPlay muted loop>
